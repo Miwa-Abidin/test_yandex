@@ -3,3 +3,4 @@ venv/
 app/db.sqlite3
 app/accounts/migrations
 app/posts/migrations
+app/my_data.json
