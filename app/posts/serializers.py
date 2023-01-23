@@ -40,7 +40,7 @@ class StatusPostSerializer(serializers.ModelSerializer):
 
 
 class StatusTypeSerializer(serializers.ModelSerializer):
-    rating = serializers.ReadOnlyField(source='get_status')
+    status = serializers.ReadOnlyField(source='get_status')
 
     class Meta:
         model = StatusType
